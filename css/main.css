@@ -6,6 +6,13 @@ body{
 .header{
     background: #fff;
 }
+.header .logo-svg {
+  display: block;
+  width: 103px;
+  height: 29px;
+  fill: #487fff;
+}
+
 .body{
     background:#f2f3fa;
 }
