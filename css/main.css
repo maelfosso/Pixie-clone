@@ -4,6 +4,151 @@ body{
     margin: 0;
     padding: 0;
 }
+.login{
+    margin: auto 20px;
+    opacity: .70;
+}
+
+.menu{
+    display: none;
+}
+
+span, .col3-text{
+    text-transform: uppercase;
+    font:bold 16px Lato,sans-serif;
+}
+
+h1{
+    line-height: 0.50;
+    color: #3c3d45;
+    margin-bottom: 15px;;
+    letter-spacing: .05em;
+    font-weight: 1;
+    font-size: 3.0rem;
+    opacity: .70;
+}
+
+.section{
+    line-height: 60px;
+	padding: 10px 40px;
+}
+
+.section div {
+    letter-spacing: .05em;
+}
+
+.btn-span{
+    margin-left: 40px;
+    text-transform: none;
+    opacity: .45;
+    letter-spacing: .020em;
+    font-size: 12px;
+}
+
+.col3-text{
+    opacity: .70;
+}
+
+.col3-span{
+    margin-top: 20px;
+    line-height: 30px;
+    opacity: .60;
+}
+
+
+.center-text{
+    margin: 0 230px;
+    line-height: 30px;
+}
+
+.col1-text{
+    opacity: .90;
+}
+
+.center-btn{
+    margin: 70px;
+}
+
+.btn-span2{
+    text-transform: none;
+    opacity: .45;
+    letter-spacing: .020em;
+    font-size: 12px;
+}
+
+@media screen and (max-width:1200px) {
+    .menu{
+        display: inline-block;
+        margin-right: 25px;
+    }
+
+    .login{
+        display: none;
+    }
+
+    div .menu{
+        margin-right: 4px;
+        opacity: .70;
+        font-size: 12px;
+    }
+
+    .header-right button{
+        background: #487fff;
+        color: #fff;
+        padding: 8px 19px;
+        font-size: .74375rem;
+    }
+
+    .center-text{
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .header{
+       /* margin-left: -20px; */
+    }
+    .menu{
+        display: inline-block;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .menu{
+        margin-right: 4px;
+        opacity: .70;
+        font-size: 12px;
+    }
+
+    .header-right button{
+        background: #487fff;
+        color: #fff;
+        padding: 8px 19px;
+        font-size: .74375rem;
+    }
+
+    h1{
+        color: #3c3d45;
+        margin-bottom: 25px;
+        letter-spacing: .05em;
+        font-weight: 0;
+        font-size: 1.9rem;
+        opacity: .50;
+    }
+
+    .header-span{
+        margin: 30px auto;
+    }
+
+    .section{
+        line-height: 20px;
+        padding: 10px 40px;
+        max-width: 860px;
+    }
+}
 
 .header{
     background: #fff;
