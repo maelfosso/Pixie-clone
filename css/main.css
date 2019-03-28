@@ -75,12 +75,15 @@ body{
 
 .footer ul {
   column-count: 2;
+  column-width: 100px;
   column-gap: 15px;
   padding-left: 0;
 }
 
 .footer ul li {
   margin-bottom: .5em;
+  display: inline-block;
+  width: 100%;
 }
 
 /** FUTURES **/
