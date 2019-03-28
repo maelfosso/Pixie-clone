@@ -9,3 +9,100 @@ body{
 .body{
     background:#f2f3fa;
 }
+
+.login{
+    margin: auto 20px;
+    opacity: .70;
+}
+
+.menu{
+    display: none;
+}
+
+span, .col3-text{
+    text-transform: uppercase;
+    font:bold 16px Lato,sans-serif;
+}
+
+h1{
+    line-height: 0.50;
+    color: #3c3d45;
+    margin-bottom: 15px;;
+    letter-spacing: .05em;
+    font-weight: 1;    
+    font-size: 3.2rem;
+}
+
+.section{
+    line-height: 60px;
+	padding: 10px 40px;
+}
+
+.section div {
+    letter-spacing: .05em;
+}
+
+.btn-span{
+    margin-left: 40px;
+    text-transform: none; 
+    opacity: .45;
+    letter-spacing: .020em;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .login{
+        display: none;
+    }
+
+    .menu{
+        margin-right: 4px;
+        opacity: .70;
+        font-size: 12px;
+    }
+
+    .header-right button{
+        background: #487fff;
+        color: #fff;
+        padding: 8px 19px;
+        font-size: .74375rem;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .login{
+        display: none;
+    }
+
+    .menu{
+        margin-right: 4px;
+        opacity: .70;
+        font-size: 12px;
+    }
+
+    .header-right button{
+        background: #487fff;
+        color: #fff;
+        padding: 8px 19px;
+        font-size: .74375rem;
+    }
+
+    h1{
+        color: #3c3d45;
+        margin-bottom: 25px;
+        letter-spacing: .05em;
+        font-weight: 1;    
+        font-size: 1.9rem;
+    }
+
+    .header-span{
+        margin: 30px auto;
+    }
+    
+    .section{
+        line-height: 20px;
+        padding: 10px 40px;
+    }
+}
