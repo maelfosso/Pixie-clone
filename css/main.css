@@ -231,6 +231,63 @@ h1{
   width: 100%;
 }
 
+/** GOOOD **/
+.sgood {
+  padding-top: 4.5vw;
+  background: #fff;
+}
+
+.sgood .sgood-header h2 {
+  margin-bottom: 1em;
+  font-family: Aileron,sans-serif;
+  line-height: 1.2;
+  letter-spacing: .05em;
+  color: #3c3d45;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.sgood .sgood-header p {
+  display: block;
+  font-weight: 200;
+  letter-spacing: .05em;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.sgood .sgood-content {
+  max-width: 810px;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.65;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sgood .sgood-foot {
+  text-align: center;
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+
+.sgood .actions {
+  max-width: 810px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.125rem;
+}
+
+
+
+@media screen and (max-width:570px) {
+  .sgood .actions a {
+    display: block;
+  }
+}
 /** MAKE YOU WEBSITE **/
 .smake {
   background: #f2f3fa;
