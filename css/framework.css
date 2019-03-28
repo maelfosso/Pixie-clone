@@ -133,6 +133,30 @@ html {
   }
 }
 
+@media screen and (max-width:570px) {
+  .xs-1 {
+      width: 8.333%;
+  }
+  .xs-2 {
+      width: 16.666%;
+  }
+  .xs-3 {
+      width: 24.999%;
+  }
+  .xs-4 {
+      width: 33.332%;
+  }
+  .xs-5 {
+      width: 41.665%;
+  }
+  .xs-6 {
+      width: 49.998%;
+  }
+  .xs-12 {
+      width: 100%;
+  }
+}
+
 /** ADDED DURING FOOTER **/
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
 body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt,
