@@ -1,4 +1,4 @@
-# NewsWeek-clone
+# Pixenio-clone
 This repository contains a clone of https://pixenio.com/
 <br><br>
 Used:
