@@ -86,6 +86,59 @@ body{
   width: 100%;
 }
 
+/** MAKE YOU WEBSITE **/
+.smake {
+  background: #f2f3fa;
+  padding: 4.5vw;
+}
+
+.smake .smake-container {
+  padding-top: 4.5vw;
+  padding-bottom: 4.5vw;
+}
+
+.smake .smake-content {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.smake .smake-content:after {
+
+}
+
+.smake .smake-content h2 {
+  margin-bottom: 1em;
+  font-family: Aileron,sans-serif;
+  line-height: 1.2;
+  letter-spacing: .05em;
+  color: #3c3d45;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.smake .smake-content p {
+  display: block;
+  font-weight: 200;
+  letter-spacing: .05em;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.smake .actions {
+  max-width: 810px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.125rem;
+}
+
+
+
+@media screen and (max-width:570px) {
+  .smake .actions a {
+    display: block;
+  }
+}
 /** FUTURES **/
 .sfuture {
   background: #f2f3fa;

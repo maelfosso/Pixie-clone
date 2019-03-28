@@ -198,7 +198,9 @@ th, thead, time, tr, tt, u, ul, var, video {
   margin-top: 1rem;
 }
 
-
+.align-c {
+  text-align: center;
+}
 footer {
   display: block;
 }
