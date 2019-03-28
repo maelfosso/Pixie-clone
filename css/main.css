@@ -72,3 +72,13 @@ body{
 .footer a {
   color: #fff;
 }
+
+.footer ul {
+  column-count: 2;
+  column-gap: 15px;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: .5em;
+}

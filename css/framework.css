@@ -253,3 +253,7 @@ footer {
 .btn.bg-white {
   color: black
 }
+
+ol, ul {
+  list-style: none;
+}
