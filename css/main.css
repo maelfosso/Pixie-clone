@@ -1,14 +1,24 @@
 body{
     font-family: Lato,sans-serif;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
     background: #fff;
 }
+.header .logo-svg {
+  display: block;
+  width: 103px;
+  height: 29px;
+  fill: #487fff;
+}
+
 .body{
     background:#f2f3fa;
 }
+
 
 .login{
     margin: auto 20px;
@@ -105,4 +115,68 @@ h1{
         line-height: 20px;
         padding: 10px 40px;
     }
+}
+
+.footer {
+  background: #2b313e;
+  color: white;
+}
+
+.footer .col-item input {
+  height: 100%;
+  /* padding: .5rem; */
+}
+
+.footer .logo-svg {
+  display: block;
+  width: 103px;
+  height: 29px;
+  fill: #487fff;
+}
+
+.footer .footer-1 {
+  padding-top: 9vw;
+  padding-bottom: 6.75vw;
+}
+.footer .footer-2 {
+  padding: calc(1.5rem + 2vw) 0;
+  border-top: 2px solid hsla(0,0%,100%,.1);
+}
+
+.footer .footer-1 form {
+  padding-top: .4rem;
+}
+
+.footer .footer-1 form div:first-child {
+  margin-bottom: .5rem;
+}
+
+.footer .footer-1 input {
+  padding: 7.9px 15px;
+  border: 2px solid #dbdde8;
+  border-radius: 1px;
+  font-family: inherit;
+  font-weight: 400;
+  -webkit-appearance: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  color: #222;
+}
+
+.footer .footer-1 button {
+  padding: 11px 25px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer ul {
+  column-count: 2;
+  column-gap: 15px;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: .5em;
 }
