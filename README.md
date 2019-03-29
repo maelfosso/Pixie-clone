@@ -11,4 +11,4 @@ This have been done by
 * Mael FOSSO https://github.com/maelfosso
 
 # The Website
-Follow the link to access to the website https://rawcdn.githack.com/maelfosso/Pixie-clone/786cd922ef037c041e6cbd1bed9a73242724deaa/index.html
+Follow the link to access to the website https://rawcdn.githack.com/maelfosso/Pixie-clone/666d602a523c9fc8863ad540216d6d7b30ef0fd2/index.html
