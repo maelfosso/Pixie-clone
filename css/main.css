@@ -76,6 +76,20 @@ h1{
     font-size: 12px;
 }
 
+@media (min-width: 1295px) {
+  .navbar {
+      padding: 2% 3%;
+  }
+}
+
+header .section {
+  padding: 15px 0 3.5rem;
+}
+@media (min-width: 570px) {
+  header .section {
+      padding: 3.2vw 0 8vw;
+  }
+}
 @media screen and (max-width:1200px) {
     .menu{
         display: inline-block;
@@ -150,7 +164,7 @@ h1{
 .header{
     background: #fff;
 }
-.header .logo-svg {
+header .logo-svg {
   display: block;
   width: 103px;
   height: 29px;
