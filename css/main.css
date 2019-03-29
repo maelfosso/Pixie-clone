@@ -66,14 +66,16 @@ h1{
 }
 
 .center-btn{
-    margin: 70px;
+    margin: auto;
+    max-width: 810px;
 }
 
-.btn-span2{
-    text-transform: none;
-    opacity: .45;
-    letter-spacing: .020em;
-    font-size: 12px;
+.center-btn .btn-span2{
+  text-transform: none;
+  opacity: .45;
+  letter-spacing: .020em;
+  font-size: 12px;
+  margin-top: 1rem
 }
 
 @media (min-width: 1295px) {
@@ -173,6 +175,38 @@ header .logo-svg {
 
 .body{
     background:#f2f3fa;
+}
+
+/* .body .grid-pix div {
+  padding: .75rem .75rem .75rem 0;
+} */
+
+
+.body .grid-pix img {
+  min-height: 280px;
+}
+
+.body .descrip {
+  margin: auto;
+  max-width: 810px;
+}
+
+@media (min-width: 570px) {
+  .body .grid-pix, .body .explain, .body .descrip, .body .center-btn {
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+  }
+}
+
+@media (min-width: 1070px) {
+  .body .grid-pix, .body .explain, .body .descrip, .body .center-btn {
+      padding-top: 4.5vw;
+      padding-bottom: 4.5vw;
+  }
+}
+
+.body .grid-pix {
+  padding-top: 0;
 }
 
 .footer {
