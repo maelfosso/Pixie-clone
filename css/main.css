@@ -106,9 +106,6 @@ h1{
 }
 
 @media screen and (max-width:800px) {
-    .header{
-       /* margin-left: -20px; */
-    }
     .menu{
         display: inline-block;
     }
@@ -171,7 +168,6 @@ h1{
 
 .footer .col-item input {
   height: 100%;
-  /* padding: .5rem; */
 }
 
 .footer .logo-svg {
