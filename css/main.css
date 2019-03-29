@@ -258,6 +258,25 @@ header .logo-svg {
   padding: 11px 25px;
 }
 
+.footer .footer-1 .social-icons a {
+  color: white;
+  margin-right: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer .footer-1 .social-icons a .icon svg {
+  fill: white;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer .footer-1 .social-icons a .icon {
+  width: 18px;
+  height: auto;
+  display: inline-block;
+}
+
 .footer a {
   color: #fff;
 }
